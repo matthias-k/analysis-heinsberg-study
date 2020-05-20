@@ -1,4 +1,4 @@
 convert:
-	jupyter nbconvert --to html --no-input BayesianHeinsbergClean.ipynb --output BayesianHeinsberg
-	jupyter nbconvert --to html BayesianHeinsbergClean.ipynb --output BayesianHeinsbergWithCode
+	jupyter nbconvert --to html --no-input BayesianHeinsberg.ipynb --output BayesianHeinsberg
+	jupyter nbconvert --to html BayesianHeinsberg.ipynb --output BayesianHeinsbergWithCode
 	cp *.html website
